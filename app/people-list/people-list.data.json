@@ -5,7 +5,7 @@
     "lastname": "King",
     "title": "Consultant II",
     "region": "Americas",
-    "company": "Hitachi Consulting US"
+    "company": "Contoso US"
   },
   {
     "name": "Kimberly Lowell",
@@ -13,7 +13,7 @@
     "lastname": "Lowell",
     "title": "Consultant II",
     "region": "EMEA",
-    "company": "Hitachi Consulting US"
+    "company": "Contoso US"
   },
   {
     "name": "Maria Ivanteeva",
@@ -21,7 +21,7 @@
     "lastname": "Ivanteeva",
     "title": "Manager II",
     "region": "Americas",
-    "company": "Hitachi Consulting US"
+    "company": "Contoso US"
   },
   {
     "name": "Jordy Donald",
@@ -29,7 +29,7 @@
     "lastname": "Donald",
     "title": "Consultant I",
     "region": "Americas",
-    "company": "Hitachi Consulting US"
+    "company": "Contoso US"
   },
   {
     "name": "Zach Baker",
@@ -37,6 +37,6 @@
     "lastname": "Baker",
     "title": "Senior Consultant I",
     "region": "Americas",
-    "company": "Hitachi Consulting US" 
+    "company": "Contoso US"
   }
 ]

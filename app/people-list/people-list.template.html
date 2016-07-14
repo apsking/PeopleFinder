@@ -1,18 +1,25 @@
 <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-6">
     <strong>Region:</strong>
-    <select class="form-control" name="show-filter" ng-model="regionFilter"
+    <select class="form-control" name="show-filter" ng-model="$ctrl.selectedRegion"
       ng-options="region as region.name for region in $ctrl.regions">
       <option value>All</option>
     </select>
   </div>
   <div class="col-lg-6 col-md-6 col-sm-6">
     <strong>Company:</strong>
-    <select class="form-control" name="show-filter" ng-model="companyFilter"
+    <select class="form-control" name="show-filter" ng-model="$ctrl.selectedCompany"
       ng-options="company as company.name for company in $ctrl.companies">
       <option value>All</option>
     </select>
   </div>
+  <!-- <div class="col-lg-6 col-md-6 col-sm-6">
+    <strong>Office:</strong>
+    <select class="form-control" name="show-filter" ng-model="$ctrl.selectedOffice"
+      ng-options="office as office.name for office in $ctrl.offices">
+      <option value>All</option>
+    </select>
+  </div> -->
   <div class="col-lg-6 col-md-6 col-sm-6">
     <strong>Name:</strong>
     <input ng-model="$ctrl.searchName" class="form-control" />
@@ -36,11 +43,7 @@
     <p>
       To update your photo, <a href="#">click here to upload</a> and your request will be processed
       within 2 business days. <strong>All People Finder photos and information are property
-      of Hitachi Consulting and for internal use only.</strong>
-    </p>
-    <p>
-      Most data is pulled from JINZAI, our HR System. To update your information,
-      <a href="#">click here</a> to go to the self-service portal.
+      of this company and for internal use only.</strong>
     </p>
   </div>
 </div>
@@ -55,8 +58,8 @@
       <tr ng-repeat="person in $ctrl.people |
                     filter: $ctrl.searchTitle |
                     filter: $ctrl.searchName |
-                    filter: {region: regionFilter.name || undefined} |
-                    filter: {company: companyFilter.name || undefined}">
+                    filter: {region: $ctrl.selectedRegion.name || undefined} |
+                    filter: {company: $ctrl.selectedCompany.name || undefined}">
         <td>{{person.name}}</td>
         <td>{{person.title}}</td>
       </tr>

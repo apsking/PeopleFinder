@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Americas" },
+  { "id": 2, "name": "APAC" },
+  { "id": 3, "name": "EMEA" },
+  { "id": 4, "name": "IDC" },
+  { "id": 5, "name": "VDC" }
+]
