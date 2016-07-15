@@ -1,0 +1,20 @@
+[
+  { "id": 1, "name": "Communications"},
+  { "id": 2, "name": "Delivery"},
+  { "id": 3, "name": "Executive"},
+  { "id": 4, "name": "Facilities"},
+  { "id": 5, "name": "Finance"},
+  { "id": 6, "name": "Human Resources"},
+  { "id": 7, "name": "IT"},
+  { "id": 8, "name": "Knowledge Management"},
+  { "id": 9, "name": "Learning & Development"},
+  { "id": 10, "name": "Legal"},
+  { "id": 11, "name": "Marketing"},
+  { "id": 12, "name": "Mergers & Acquisitions"},
+  { "id": 13, "name": "Methodology"},
+  { "id": 14, "name": "Mobility"},
+  { "id": 15, "name": "PMI"},
+  { "id": 16, "name": "Recruiting"},
+  { "id": 17, "name": "Resource Management"},
+  { "id": 18, "name": "Sales"}
+]
