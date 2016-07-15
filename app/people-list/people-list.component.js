@@ -9,6 +9,7 @@ angular.
 
       self.companies = [];
       self.currentPage = 1;
+      self.departments = [];
       self.offices = [];
       self.people = [];
       self.regions = [];
@@ -16,6 +17,7 @@ angular.
       self.searchTitle = "";
       self.selectedRegion = undefined;
       self.selectedCompany = undefined;
+      self.selectedDepartment = undefined;
       self.selectedOffice = undefined;
       self.totalItems = self.people.length;
 
@@ -36,6 +38,10 @@ angular.
        .success(function(res){
           self.offices = res;
         });
+        $http.get('data/departments.json')
+         .success(function(res){
+            self.departments = res;
+          });
 
       /* Clear/Reset all page filters*/
       self.clearFilters = function(){

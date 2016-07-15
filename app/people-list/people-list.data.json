@@ -38,5 +38,21 @@
     "title": "Senior Consultant I",
     "region": "Americas",
     "company": "Contoso US"
+  },
+  {
+    "name": "Sam Smith",
+    "firstname": "Sam",
+    "lastname": "Smith",
+    "title": "Senior Consultant I",
+    "region": "Americas",
+    "company": "Contoso US"
+  },
+  {
+    "name": "Steven Parks",
+    "firstname": "Steven",
+    "lastname": "Parks",
+    "title": "Senior Consultant II",
+    "region": "Americas",
+    "company": "Contoso US"
   }
 ]
